@@ -1,0 +1,61 @@
+#boldovano {
+  padding: 10px;
+}
+
+.pageBody {
+  text-align: center;
+  border: 1px solid black;
+  width: fit-content;
+  padding: 30px;
+  margin: auto;
+  background-color: rgb(92, 1, 100);
+  border-radius: 10px;
+  margin-top: 250px;
+}
+
+.attribution {
+  padding-top: 100px;
+  text-align: center;
+  color: antiquewhite;
+}
+
+.attribution a {
+  color: cornflowerblue;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.pageBody img {
+  border: 2px solid white;
+  border-radius: 25px;
+}
+
+.pageBody p {
+  border: 1px solid pink;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 15px;
+  background-color: beige;
+}
+
+.pageBody p:hover {
+  background-color: rgb(232, 144, 231);
+  border-color: aqua;
+}
+
+.pageBody img:hover {
+  border-color: rgb(223, 104, 183);
+}
+
+body {
+  margin: auto;
+  background-image: url(images/pozadina.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(48, 46, 52);
+}
