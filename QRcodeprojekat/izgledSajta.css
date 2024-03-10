@@ -23,6 +23,10 @@
   color: cornflowerblue;
 }
 
+.attribution a:active {
+  color: violet;
+}
+
 * {
   padding: 0;
   margin: 0;
