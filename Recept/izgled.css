@@ -2,6 +2,35 @@
   width: 300px;
 }
 
+.priprema {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(248, 242, 243);
+  border-radius: 5px;
+  width: fit-content;
+  padding: 15px;
+  margin-top: 30px;
+}
+.priprema li {
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: left;
+  margin-left: 25px;
+}
+
+.priprema p {
+  font-size: 20px;
+  color: rgb(164, 9, 136);
+}
+
+.pripremaNaziv {
+  text-align: left;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  color: brown;
+}
+
 .sastojci {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -13,9 +42,10 @@
   margin-left: 22px;
 }
 
-#sastojciNaziv {
+.sastojciNaziv {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: left;
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 10px;
   font-size: 24px;
   font-weight: bold;
@@ -23,7 +53,8 @@
 }
 
 .recept {
-  width: fit-content;
+  width: 700px;
+  text-wrap: wrap;
   padding: 50px;
   margin: auto;
   text-align: center;
@@ -41,4 +72,8 @@
 
 body {
   background-color: rgb(251, 234, 212);
+}
+
+.prelaz {
+  margin-top: 25px;
 }
