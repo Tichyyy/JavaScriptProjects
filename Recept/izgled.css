@@ -1,0 +1,42 @@
+#palacinke {
+  width: 300px;
+}
+
+.sastojci {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sastojci li {
+  padding-top: 10px;
+  text-align: left;
+}
+
+#sastojciNaziv {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  list-style: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: brown;
+}
+
+.recept {
+  width: fit-content;
+  padding: 30px;
+  margin: auto;
+  text-align: center;
+  border: 1px solid rgb(251, 234, 212);
+  margin-top: 100px;
+  background-color: azure;
+  border-radius: 15px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(251, 234, 212);
+}
