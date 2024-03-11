@@ -7,14 +7,16 @@
 }
 
 .sastojci li {
+  padding-left: 10px;
   padding-top: 10px;
   text-align: left;
+  margin-left: 22px;
 }
 
 #sastojciNaziv {
+  text-align: left;
   padding-top: 50px;
   padding-bottom: 10px;
-  list-style: none;
   font-size: 24px;
   font-weight: bold;
   color: brown;
@@ -22,7 +24,7 @@
 
 .recept {
   width: fit-content;
-  padding: 30px;
+  padding: 50px;
   margin: auto;
   text-align: center;
   border: 1px solid rgb(251, 234, 212);
