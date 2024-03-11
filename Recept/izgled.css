@@ -33,6 +33,7 @@
 
 .sastojci {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(248, 244, 240);
 }
 
 .sastojci li {
@@ -45,7 +46,7 @@
 .sastojciNaziv {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: left;
-  padding-top: 40px;
+  margin-top: 40px;
   padding-bottom: 10px;
   font-size: 24px;
   font-weight: bold;
@@ -53,7 +54,8 @@
 }
 
 .recept {
-  width: 700px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 750px;
   text-wrap: wrap;
   padding: 50px;
   margin: auto;
@@ -62,6 +64,7 @@
   margin-top: 100px;
   background-color: azure;
   border-radius: 15px;
+  margin-bottom: 100px;
 }
 
 * {
@@ -76,4 +79,52 @@ body {
 
 .prelaz {
   margin-top: 25px;
+}
+
+.tabela {
+  text-align: left;
+}
+
+.tabela p {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.tabela td {
+  text-align: left;
+  border-bottom: 1px solid black;
+  padding: 8px;
+  padding-right: 200px;
+}
+
+.tabela table {
+  border-collapse: collapse;
+  background-color: rgb(246, 245, 243);
+}
+
+.boja {
+  color: brown;
+  font-weight: bold;
+}
+
+#futer {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(245, 213, 170);
+}
+
+#tema {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: brown;
+  width: fit-content;
+  margin: auto;
+  border: 1px solid white;
+  background-color: rgb(251, 244, 235);
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
